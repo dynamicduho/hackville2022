@@ -1,3 +1,35 @@
+.imgControl{
+    width: 256px;
+    height: 256px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 10px solid greenyellow;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #2A52BE;
+    z-index: 5;
+
+}
+
+.stack, h2 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
 h2 {
-    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.btns {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
